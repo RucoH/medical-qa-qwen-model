@@ -88,6 +88,8 @@ Install required packages:
 pip install -r requirements.txt
 ```
 
+---
+
 ## 📄 License
 
 Distributed under the [MIT License](LICENSE).
@@ -96,3 +98,5 @@ Distributed under the [MIT License](LICENSE).
 
 * GitHub: [@RucoH](https://github.com/RucoH)
 * Live Site: [https://rucoh.github.io/](https://rucoh.github.io/)
+
+---
