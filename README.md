@@ -37,10 +37,6 @@ Project root directory:
 ├── split_dataset.py            # Splits merged dataset into smaller chunks
 ├── tokenize_all_datasets.py    # Tokenizes all datasets
 ├── tokenize_dataset.py         # Tokenizes a single dataset file
-
-
-
-
 ```
 
 ---
