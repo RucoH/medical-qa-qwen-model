@@ -3,15 +3,11 @@
 A fine-tuned Qwen LLM designed for **medical question-answering** in English and Turkish.
 Built using domain-specific datasets and LoRA-based parameter-efficient fine-tuning.
 
----
-
 ## 🔍 Project Overview
 
 This project trains a **custom medical QA model** using the [Qwen1.5-0.5B](https://huggingface.co/Qwen/Qwen1.5-0.5B) architecture.
 Medical datasets are cleaned, merged, tokenized, and used for fine-tuning via LoRA adapters.
 The result is a lightweight model capable of answering medical questions reliably.
-
----
 
 ## 📁 Directory Structure
 
@@ -38,8 +34,6 @@ Project root directory:
 ├── tokenize_all_datasets.py    # Tokenizes all datasets
 ├── tokenize_dataset.py         # Tokenizes a single dataset file
 ```
-
----
 
 ## 🚀 How to Run
 
@@ -71,16 +65,12 @@ Project root directory:
    python medical_qa_model.py        # Ask medical questions
    ```
 
----
-
 ## 📌 Example Usage
 
 ```text
 Question: What are the symptoms of diabetes?
 Answer: Excessive thirst, frequent urination, fatigue, and weight loss are common symptoms of type 2 diabetes.
 ```
-
----
 
 ## 🧠 Model Details
 
@@ -90,10 +80,6 @@ Answer: Excessive thirst, frequent urination, fatigue, and weight loss are commo
 * Training Time: \~12 hours (on 8GB VRAM GPU)
 * Tokenizer: Same as base model tokenizer
 
----
-
----
-
 ## 📦 Installation
 
 Install required packages:
@@ -101,8 +87,6 @@ Install required packages:
 ```bash
 pip install -r requirements.txt
 ```
-
----
 
 ## 📄 License
 
@@ -112,5 +96,3 @@ Distributed under the [MIT License](LICENSE).
 
 * GitHub: [@RucoH](https://github.com/RucoH)
 * Live Site: [https://rucoh.github.io/](https://rucoh.github.io/)
-
----
