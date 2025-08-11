@@ -1,4 +1,4 @@
-# 🧠 medical-qa-qwen-model
+# 🧠 medical-qa-qwen-model 
 
 A fine-tuned Qwen LLM designed for **medical question-answering** in English and Turkish.
 Built using domain-specific datasets and LoRA-based parameter-efficient fine-tuning.
